@@ -1,0 +1,27 @@
+.productos {
+    background-color: #F2B8C6; 
+    padding: 40px 0;
+}
+
+.productos .card {
+    border-radius: 15px; 
+    transition: transform 0.3s ease; 
+}
+
+.productos .card:hover {
+    transform: scale(1.05); 
+}
+
+.productos .card-body h5 {
+    font-size: 18px;
+}
+
+.productos .btn-info {
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.productos .card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+}
